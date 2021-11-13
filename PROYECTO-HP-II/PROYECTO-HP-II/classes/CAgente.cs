@@ -9,12 +9,12 @@ namespace PROYECTO_HP_II.classes
 	class CAgente
 	{
 		
-		private string _name = "";
-		private string _pass = "";
-		private int _age = 0;
-		private int _id = 0;
-		private int _captures = 0;
-		private string _urlPicture = ""; 
+		private string	_name = "";
+		private string	_pass = "";
+		private int		_age = 0;
+		private int		_id = 0;
+		private int		_captures = 0;
+		private string	_urlPicture = ""; 
 
 		public CAgente()
 		{
@@ -25,7 +25,7 @@ namespace PROYECTO_HP_II.classes
 			this._urlPicture = null;
 		}
 
-		~CAgente() {}
+		// ~CAgente() {}
 
 		public string Name
 		{

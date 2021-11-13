@@ -47,11 +47,39 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="classes\CAgente.cs" />
+    <Compile Include="classes\CCapturado.cs" />
+    <Compile Include="classes\CDelincuente.cs" />
+    <Compile Include="classes\CDelito.cs" />
+    <Compile Include="conecctionSQL.cs" />
+    <Compile Include="EditarDelincuente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarDelincuente.Designer.cs">
+      <DependentUpon>EditarDelincuente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IngresarDelincuente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresarDelincuente.Designer.cs">
+      <DependentUpon>IngresarDelincuente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaCapturados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaCapturados.Designer.cs">
+      <DependentUpon>ListaCapturados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListaDelincuentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListaDelincuentes.Designer.cs">
+      <DependentUpon>ListaDelincuentes.cs</DependentUpon>
     </Compile>
     <Compile Include="menu.cs">
       <SubType>Form</SubType>
@@ -61,8 +89,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EditarDelincuente.resx">
+      <DependentUpon>EditarDelincuente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresarDelincuente.resx">
+      <DependentUpon>IngresarDelincuente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaCapturados.resx">
+      <DependentUpon>ListaCapturados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListaDelincuentes.resx">
+      <DependentUpon>ListaDelincuentes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="menu.resx">
       <DependentUpon>menu.cs</DependentUpon>
@@ -75,6 +115,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -88,6 +129,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rectángulo 30.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
