@@ -55,5 +55,12 @@ namespace PROYECTO_HP_II
             EditAgente.Show();
             this.Close();
         }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            RegistrarAgente registrarAgenteWindow = new RegistrarAgente();
+            registrarAgenteWindow.Show();
+            this.Close();
+        }
     }
 }
