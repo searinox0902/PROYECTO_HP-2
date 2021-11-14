@@ -12,16 +12,17 @@ namespace PROYECTO_HP_II.classes
 		private string	_name = "";
 		private string	_pass = "";
 		private int		_age = 0;
-		private int		_id = 0;
-		private int		_captures = 0;
-		private string	_urlPicture = ""; 
+		private string _rango = "";
+		private string	_id = "";
+		private string	_urlPicture = "";
+		private int _Pin = 0;
 
 		public CAgente()
 		{
 			this._name = null;
 			this._age = 0;
-			this._id = 0;
-			this._captures = 0;
+			this._id = "";
+			this._Pin = 0;
 			this._urlPicture = null;
 		}
 
@@ -45,22 +46,29 @@ namespace PROYECTO_HP_II.classes
 			set { _age = value; }
 		}
 
-		public int Id
+		public string Rango
+		{
+			get { return _rango; }
+			set { _rango = value; }
+		}
+
+		public string  Id
 		{
 			get { return _id; }
 			set { _id = value; }
 		}
 
-		public int Captures
-		{
-			get { return _captures; }
-			set { _captures = value; }
-		}
 
 		public string UrlPicture
 		{
 			get { return _urlPicture; }
 			set { _urlPicture = value; }
 		}
+		public int Pin
+		{
+			get { return _Pin; }
+			set { _Pin = value; }
+		}
+
 	}
 }

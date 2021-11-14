@@ -244,6 +244,7 @@ namespace PROYECTO_HP_II
             this.button7.TabIndex = 26;
             this.button7.Text = "ACTUALIZAR AGENTE";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 

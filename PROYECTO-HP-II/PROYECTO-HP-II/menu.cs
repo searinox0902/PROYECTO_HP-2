@@ -48,5 +48,12 @@ namespace PROYECTO_HP_II
             listaCapturados.Show();
             this.Close();
         }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            EditarAgente EditAgente = new EditarAgente();
+            EditAgente.Show();
+            this.Close();
+        }
     }
 }

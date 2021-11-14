@@ -268,6 +268,7 @@ namespace PROYECTO_HP_II
             this.textBoxNombre.Size = new System.Drawing.Size(250, 27);
             this.textBoxNombre.TabIndex = 66;
             this.textBoxNombre.WordWrap = false;
+            this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             // 
             // textBoxAlias
             // 
@@ -281,6 +282,7 @@ namespace PROYECTO_HP_II
             this.textBoxAlias.Size = new System.Drawing.Size(250, 27);
             this.textBoxAlias.TabIndex = 67;
             this.textBoxAlias.WordWrap = false;
+            this.textBoxAlias.TextChanged += new System.EventHandler(this.textBoxAlias_TextChanged);
             // 
             // textBoxID
             // 

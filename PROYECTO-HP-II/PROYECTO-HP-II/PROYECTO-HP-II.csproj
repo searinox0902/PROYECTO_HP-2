@@ -51,6 +51,12 @@
     <Compile Include="classes\CDelincuente.cs" />
     <Compile Include="classes\CDelito.cs" />
     <Compile Include="conecctionSQL.cs" />
+    <Compile Include="EditarAgente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAgente.Designer.cs">
+      <DependentUpon>EditarAgente.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditarDelincuente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="EditarAgente.resx">
+      <DependentUpon>EditarAgente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditarDelincuente.resx">
       <DependentUpon>EditarDelincuente.cs</DependentUpon>
     </EmbeddedResource>
