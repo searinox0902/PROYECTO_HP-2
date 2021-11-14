@@ -63,9 +63,10 @@ namespace PROYECTO_HP_II
             registrarAgenteWindow.Show();
           }
 
-        private void button5_Click(object sender, EventArgs e)
+   
+        private void button5_Click_1(object sender, EventArgs e)
         {
-            ListadoAgente ListadoAgente = new ListadoAgente();
+            ListarAgente ListadoAgente = new ListarAgente();
             ListadoAgente.Show();
 
             this.Close();

@@ -210,6 +210,7 @@ namespace PROYECTO_HP_II
             this.button5.TabIndex = 24;
             this.button5.Text = "VER LISTA DE AGENTES";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_1);
             // 
             // button6
             // 
