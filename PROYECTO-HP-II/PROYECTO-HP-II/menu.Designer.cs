@@ -227,6 +227,7 @@ namespace PROYECTO_HP_II
             this.button6.TabIndex = 25;
             this.button6.Text = "REGISTRA UN AGENTE";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -244,6 +245,7 @@ namespace PROYECTO_HP_II
             this.button7.TabIndex = 26;
             this.button7.Text = "ACTUALIZAR AGENTE";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button8
             // 
