@@ -48,5 +48,12 @@ namespace PROYECTO_HP_II
             listaCapturados.Show();
             this.Close();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ListadoAgente ListadoAgente = new ListadoAgente();
+            ListadoAgente.Show();
+            this.Close();
+        }
     }
 }
