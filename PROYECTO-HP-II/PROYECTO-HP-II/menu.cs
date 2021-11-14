@@ -49,6 +49,7 @@ namespace PROYECTO_HP_II
             this.Close();
         }
 
+
         private void button7_Click(object sender, EventArgs e)
         {
             EditarAgente EditAgente = new EditarAgente();
@@ -60,6 +61,13 @@ namespace PROYECTO_HP_II
         {
             RegistrarAgente registrarAgenteWindow = new RegistrarAgente();
             registrarAgenteWindow.Show();
+          }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ListadoAgente ListadoAgente = new ListadoAgente();
+            ListadoAgente.Show();
+
             this.Close();
         }
     }
