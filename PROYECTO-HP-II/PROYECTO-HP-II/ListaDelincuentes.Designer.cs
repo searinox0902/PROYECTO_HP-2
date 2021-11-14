@@ -105,9 +105,9 @@ namespace PROYECTO_HP_II
             this.label1.Location = new System.Drawing.Point(123, 27);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(182, 22);
+            this.label1.Size = new System.Drawing.Size(167, 22);
             this.label1.TabIndex = 14;
-            this.label1.Text = "LOS MAS BUSCADOS";
+            this.label1.Text = "LISTA DE AGENTES";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // registrarCaptura
@@ -290,9 +290,9 @@ namespace PROYECTO_HP_II
             this.label2.Location = new System.Drawing.Point(137, 117);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(191, 22);
+            this.label2.Size = new System.Drawing.Size(89, 22);
             this.label2.TabIndex = 39;
-            this.label2.Text = "LISTA DELINCUENTES";
+            this.label2.Text = "AGENTES";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // listBox1
