@@ -51,6 +51,12 @@
     <Compile Include="classes\CDelincuente.cs" />
     <Compile Include="classes\CDelito.cs" />
     <Compile Include="conecctionSQL.cs" />
+    <Compile Include="EditarAgente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditarAgente.Designer.cs">
+      <DependentUpon>EditarAgente.cs</DependentUpon>
+    </Compile>
     <Compile Include="EditarDelincuente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RegistrarAgente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegistrarAgente.Designer.cs">
+      <DependentUpon>RegistrarAgente.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="EditarAgente.resx">
+      <DependentUpon>EditarAgente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="EditarDelincuente.resx">
       <DependentUpon>EditarDelincuente.cs</DependentUpon>
     </EmbeddedResource>
@@ -117,6 +132,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RegistrarAgente.resx">
+      <DependentUpon>RegistrarAgente.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

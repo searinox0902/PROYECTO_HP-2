@@ -215,5 +215,15 @@ namespace PROYECTO_HP_II
 
             conn.Close();
         }
+
+        private void textBoxNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxAlias_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -49,10 +49,25 @@ namespace PROYECTO_HP_II
             this.Close();
         }
 
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            EditarAgente EditAgente = new EditarAgente();
+            EditAgente.Show();
+            this.Close();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            RegistrarAgente registrarAgenteWindow = new RegistrarAgente();
+            registrarAgenteWindow.Show();
+          }
+
         private void button5_Click(object sender, EventArgs e)
         {
             ListadoAgente ListadoAgente = new ListadoAgente();
             ListadoAgente.Show();
+
             this.Close();
         }
     }
