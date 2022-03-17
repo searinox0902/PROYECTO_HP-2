@@ -11,8 +11,7 @@ namespace PROYECTO_HP_II
 {
     class conecctionSQL
     {
-        public static string conectionString = "server=LAPTOP-LTNTD031; database=policeConsole; integrated security = true"; 
-
+        public static string conectionString = "server=SVARGAS; database=policeConsole; integrated security=true"; 
 
         public conecctionSQL()
         {
