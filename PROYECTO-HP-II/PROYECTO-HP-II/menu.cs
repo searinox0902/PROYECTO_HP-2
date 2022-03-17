@@ -71,5 +71,17 @@ namespace PROYECTO_HP_II
 
             this.Close();
         }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Form1 inicioSesion = new Form1();
+            inicioSesion.Show();
+            this.Close();
+        }
     }
 }
