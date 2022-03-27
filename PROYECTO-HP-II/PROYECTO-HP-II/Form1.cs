@@ -69,9 +69,7 @@ namespace PROYECTO_HP_II
             {
                 MessageBox.Show("Error, asegurese que los datos ingresados sean correctos \n" + ex.Message);
             }
-
-          
-
+            
             conn.Close();
         }
 
@@ -99,8 +97,7 @@ namespace PROYECTO_HP_II
                     MessageBox.Show("Agente ya se encuentra registrado o Datos ingresados Incorrectamente (SOLO NUMEROS EN PIN)");
                 } 
         
-          
-            conn.Close();
+                conn.Close();
 
         }
 
