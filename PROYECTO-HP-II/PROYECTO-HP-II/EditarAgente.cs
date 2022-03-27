@@ -172,7 +172,7 @@ namespace PROYECTO_HP_II
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo se permiten letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se permiten letras", "Advertencia");
                 e.Handled = true;
                 return;
             }
@@ -182,7 +182,7 @@ namespace PROYECTO_HP_II
         {
             if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo se permiten letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se permiten letras", "Advertencia");
                 e.Handled = true;
                 return;
             }
@@ -192,7 +192,7 @@ namespace PROYECTO_HP_II
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se permiten numeros", "Advertencia");
                 e.Handled = true;
                 return;
             }
@@ -202,7 +202,7 @@ namespace PROYECTO_HP_II
         {
             if (!(char.IsNumber(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
             {
-                MessageBox.Show("Solo se permiten numeros", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                MessageBox.Show("Solo se permiten numeros", "Advertencia");
                 e.Handled = true;
                 return;
             }
@@ -212,5 +212,6 @@ namespace PROYECTO_HP_II
         {
 
         }
+
     }
 }

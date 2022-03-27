@@ -100,7 +100,9 @@ namespace PROYECTO_HP_II
             this.textBoxNombre.Name = "textBoxNombre";
             this.textBoxNombre.Size = new System.Drawing.Size(188, 22);
             this.textBoxNombre.TabIndex = 91;
+            this.textBoxNombre.Text = "1";
             this.textBoxNombre.WordWrap = false;
+            this.textBoxNombre.TextChanged += new System.EventHandler(this.textBoxNombre_TextChanged);
             this.textBoxNombre.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxNombre_KeyPress);
             // 
             // button2
