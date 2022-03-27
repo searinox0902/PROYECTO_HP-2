@@ -87,6 +87,7 @@ namespace PROYECTO_HP_II
             this.textBoxRango.Size = new System.Drawing.Size(188, 22);
             this.textBoxRango.TabIndex = 92;
             this.textBoxRango.WordWrap = false;
+            this.textBoxRango.TextChanged += new System.EventHandler(this.textBoxRango_TextChanged);
             this.textBoxRango.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxRango_KeyPress);
             // 
             // textBoxNombre
@@ -186,7 +187,7 @@ namespace PROYECTO_HP_II
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 26);
             this.button1.TabIndex = 82;
-            this.button1.Text = "EDITAR DELINCUENTE";
+            this.button1.Text = "EDITAR AGENTE";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
