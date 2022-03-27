@@ -1,4 +1,6 @@
 ﻿
+using System;
+
 namespace PROYECTO_HP_II
 {
     partial class EditarAgente
@@ -321,6 +323,11 @@ namespace PROYECTO_HP_II
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void textBoxNombre_TextChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
