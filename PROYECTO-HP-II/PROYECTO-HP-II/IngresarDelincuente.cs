@@ -5,6 +5,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,7 +15,7 @@ namespace PROYECTO_HP_II
     public partial class IngresarDelincuente : Form
     {
         SqlConnection conn = new SqlConnection(conecctionSQL.conectionString);
-
+        Image myImg;
 
         List<classes.CDelito> DelitoList = new List<classes.CDelito>();
 
@@ -158,6 +159,7 @@ namespace PROYECTO_HP_II
 
             try
             {
+                
                 comandoInsert.ExecuteNonQuery();
                 MessageBox.Show("Delincuente Registrado");
 
@@ -189,6 +191,50 @@ namespace PROYECTO_HP_II
 
 
            
+        }
+
+        private void piectureUpload_Click(object sender, EventArgs e)
+        {   
+            string subPath = @"Resources\";
+            string fullPath = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), subPath);
+            Image a = pictureBox.Image;
+            if (pictureBox.Image != null)
+            {   
+               
+                using (Bitmap tempImage = new Bitmap(a))
+                {
+                    tempImage.Save(@"C:\proyectos\PROYECTO_HP-2\PROYECTO-HP-II\PROYECTO-HP-II\Resources", System.Drawing.Imaging.ImageFormat.Png);
+
+                }
+            }
+            else
+            {
+                MessageBox.Show("El picture Box está vacio");
+            }
+
+           
+
+            try
+            {
+                
+                OpenFileDialog dialog = new OpenFileDialog();
+               
+                dialog.Filter = "jpg files(*.jpg)|*.jpg| PNG files(*.png)|*.png| All Files(*.*)|*.*";
+
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    pictureBox.ImageLocation = dialog.FileName;
+                } 
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("No se completo la sent");
+            }
+        }
+
+        private void pictureBox_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

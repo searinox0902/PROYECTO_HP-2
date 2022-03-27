@@ -289,7 +289,7 @@ namespace PROYECTO_HP_II
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.Name = "menu";
-            this.Text = "menu";
+            this.Text = "                         ";
             this.ResumeLayout(false);
             this.PerformLayout();
 
