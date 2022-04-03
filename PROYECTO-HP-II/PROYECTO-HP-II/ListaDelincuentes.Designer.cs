@@ -48,7 +48,6 @@ namespace PROYECTO_HP_II
             this.label16 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,12 +55,11 @@ namespace PROYECTO_HP_II
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 10.75F, System.Drawing.FontStyle.Bold);
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
             this.label6.ForeColor = System.Drawing.Color.Yellow;
-            this.label6.Location = new System.Drawing.Point(110, 512);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(82, 416);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(826, 22);
+            this.label6.Size = new System.Drawing.Size(926, 18);
             this.label6.TabIndex = 18;
             this.label6.Text = "_________________________________________________________________________________" +
     "_____________________";
@@ -71,12 +69,11 @@ namespace PROYECTO_HP_II
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Aqua;
-            this.label7.Location = new System.Drawing.Point(160, 553);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(120, 449);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(814, 17);
+            this.label7.Size = new System.Drawing.Size(779, 13);
             this.label7.TabIndex = 17;
             this.label7.Text = "ESTE SOFTWARE SOLO PUEDE SER ACCEDIDO POR PERSONAL AUTORIZADO DE LO CONTRARIO SE " +
     "LE CONSIDERARÁ DELITO!";
@@ -85,12 +82,11 @@ namespace PROYECTO_HP_II
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto", 10.75F, System.Drawing.FontStyle.Bold);
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
             this.label5.ForeColor = System.Drawing.Color.Yellow;
-            this.label5.Location = new System.Drawing.Point(123, 49);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(92, 40);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(810, 22);
+            this.label5.Size = new System.Drawing.Size(908, 18);
             this.label5.TabIndex = 16;
             this.label5.Text = "_________________________________________________________________________________" +
     "___________________";
@@ -100,12 +96,11 @@ namespace PROYECTO_HP_II
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Roboto", 10.75F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
             this.label1.ForeColor = System.Drawing.Color.Yellow;
-            this.label1.Location = new System.Drawing.Point(123, 27);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(92, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(167, 22);
+            this.label1.Size = new System.Drawing.Size(163, 18);
             this.label1.TabIndex = 14;
             this.label1.Text = "LISTA DE AGENTES";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -118,11 +113,12 @@ namespace PROYECTO_HP_II
             this.registrarCaptura.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
             this.registrarCaptura.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
             this.registrarCaptura.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.registrarCaptura.Font = new System.Drawing.Font("Roboto", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.registrarCaptura.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registrarCaptura.ForeColor = System.Drawing.Color.Yellow;
-            this.registrarCaptura.Location = new System.Drawing.Point(764, 459);
+            this.registrarCaptura.Location = new System.Drawing.Point(573, 373);
+            this.registrarCaptura.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.registrarCaptura.Name = "registrarCaptura";
-            this.registrarCaptura.Size = new System.Drawing.Size(209, 32);
+            this.registrarCaptura.Size = new System.Drawing.Size(157, 26);
             this.registrarCaptura.TabIndex = 24;
             this.registrarCaptura.Text = "REGISTRAR CAPTURA";
             this.registrarCaptura.UseVisualStyleBackColor = false;
@@ -131,12 +127,11 @@ namespace PROYECTO_HP_II
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Aqua;
-            this.label4.Location = new System.Drawing.Point(481, 254);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(361, 206);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(47, 17);
+            this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 21;
             this.label4.Text = "ALIAS";
             this.label4.Click += new System.EventHandler(this.label4_Click);
@@ -144,12 +139,11 @@ namespace PROYECTO_HP_II
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.Aqua;
-            this.label3.Location = new System.Drawing.Point(481, 174);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(361, 141);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 17);
+            this.label3.Size = new System.Drawing.Size(60, 13);
             this.label3.TabIndex = 20;
             this.label3.Text = "NOMBRE";
             this.label3.Click += new System.EventHandler(this.label3_Click);
@@ -157,12 +151,11 @@ namespace PROYECTO_HP_II
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Roboto", 10.75F, System.Drawing.FontStyle.Bold);
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
             this.label8.ForeColor = System.Drawing.Color.Yellow;
-            this.label8.Location = new System.Drawing.Point(481, 117);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(361, 95);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(67, 22);
+            this.label8.Size = new System.Drawing.Size(64, 18);
             this.label8.TabIndex = 26;
             this.label8.Text = "DATOS";
             this.label8.Click += new System.EventHandler(this.label8_Click);
@@ -170,12 +163,11 @@ namespace PROYECTO_HP_II
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Aqua;
-            this.label9.Location = new System.Drawing.Point(483, 397);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(362, 323);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(134, 17);
+            this.label9.Size = new System.Drawing.Size(124, 13);
             this.label9.TabIndex = 28;
             this.label9.Text = "ULTIMA UBICACION";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -183,12 +175,11 @@ namespace PROYECTO_HP_II
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Aqua;
-            this.label10.Location = new System.Drawing.Point(483, 324);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(362, 263);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(21, 17);
+            this.label10.Size = new System.Drawing.Size(20, 13);
             this.label10.TabIndex = 27;
             this.label10.Text = "ID";
             this.label10.Click += new System.EventHandler(this.label10_Click);
@@ -196,9 +187,10 @@ namespace PROYECTO_HP_II
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PROYECTO_HP_II.Properties.Resources.Rectángulo_30;
-            this.pictureBox1.Location = new System.Drawing.Point(765, 117);
+            this.pictureBox1.Location = new System.Drawing.Point(574, 95);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(208, 217);
+            this.pictureBox1.Size = new System.Drawing.Size(156, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 31;
             this.pictureBox1.TabStop = false;
@@ -207,12 +199,11 @@ namespace PROYECTO_HP_II
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.Aqua;
-            this.label11.Location = new System.Drawing.Point(762, 352);
-            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label11.Location = new System.Drawing.Point(572, 286);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(56, 17);
+            this.label11.Size = new System.Drawing.Size(52, 13);
             this.label11.TabIndex = 32;
             this.label11.Text = "DELITO";
             this.label11.Click += new System.EventHandler(this.label11_Click);
@@ -220,12 +211,11 @@ namespace PROYECTO_HP_II
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.Yellow;
-            this.label12.Location = new System.Drawing.Point(482, 203);
-            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label12.Location = new System.Drawing.Point(362, 165);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(12, 17);
+            this.label12.Size = new System.Drawing.Size(11, 13);
             this.label12.TabIndex = 34;
             this.label12.Text = ".";
             this.label12.Click += new System.EventHandler(this.label12_Click);
@@ -233,12 +223,11 @@ namespace PROYECTO_HP_II
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Yellow;
-            this.label13.Location = new System.Drawing.Point(483, 282);
-            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label13.Location = new System.Drawing.Point(362, 229);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(12, 17);
+            this.label13.Size = new System.Drawing.Size(11, 13);
             this.label13.TabIndex = 35;
             this.label13.Text = ".";
             this.label13.Click += new System.EventHandler(this.label13_Click);
@@ -246,12 +235,11 @@ namespace PROYECTO_HP_II
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.ForeColor = System.Drawing.Color.Yellow;
-            this.label14.Location = new System.Drawing.Point(483, 352);
-            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label14.Location = new System.Drawing.Point(362, 286);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(12, 17);
+            this.label14.Size = new System.Drawing.Size(11, 13);
             this.label14.TabIndex = 36;
             this.label14.Text = ".";
             this.label14.Click += new System.EventHandler(this.label14_Click);
@@ -259,12 +247,11 @@ namespace PROYECTO_HP_II
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.ForeColor = System.Drawing.Color.Yellow;
-            this.label15.Location = new System.Drawing.Point(483, 429);
-            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label15.Location = new System.Drawing.Point(362, 349);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(12, 17);
+            this.label15.Size = new System.Drawing.Size(11, 13);
             this.label15.TabIndex = 37;
             this.label15.Text = ".";
             this.label15.Click += new System.EventHandler(this.label15_Click);
@@ -272,12 +259,11 @@ namespace PROYECTO_HP_II
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label16.ForeColor = System.Drawing.Color.Yellow;
-            this.label16.Location = new System.Drawing.Point(762, 383);
-            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label16.Location = new System.Drawing.Point(572, 311);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(56, 17);
+            this.label16.Size = new System.Drawing.Size(52, 13);
             this.label16.TabIndex = 38;
             this.label16.Text = "DELITO";
             this.label16.Click += new System.EventHandler(this.label16_Click);
@@ -285,12 +271,11 @@ namespace PROYECTO_HP_II
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 10.75F, System.Drawing.FontStyle.Bold);
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.75F, System.Drawing.FontStyle.Bold);
             this.label2.ForeColor = System.Drawing.Color.Yellow;
-            this.label2.Location = new System.Drawing.Point(137, 117);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(103, 95);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(89, 22);
+            this.label2.Size = new System.Drawing.Size(86, 18);
             this.label2.TabIndex = 39;
             this.label2.Text = "AGENTES";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -299,57 +284,37 @@ namespace PROYECTO_HP_II
             // 
             this.listBox1.BackColor = System.Drawing.Color.Yellow;
             this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.listBox1.Font = new System.Drawing.Font("Roboto", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.listBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 20;
+            this.listBox1.ItemHeight = 17;
             this.listBox1.Items.AddRange(new object[] {
             "ASDS"});
-            this.listBox1.Location = new System.Drawing.Point(141, 164);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(10);
+            this.listBox1.Location = new System.Drawing.Point(106, 133);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(280, 280);
+            this.listBox1.Size = new System.Drawing.Size(210, 221);
             this.listBox1.TabIndex = 40;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Roboto", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Aqua;
-            this.button2.Location = new System.Drawing.Point(815, 17);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 32);
-            this.button2.TabIndex = 41;
-            this.button2.Text = "ATRAS";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Roboto", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label17.ForeColor = System.Drawing.Color.Yellow;
-            this.label17.Location = new System.Drawing.Point(762, 416);
-            this.label17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label17.Location = new System.Drawing.Point(572, 338);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(98, 17);
+            this.label17.Size = new System.Drawing.Size(91, 13);
             this.label17.TabIndex = 42;
             this.label17.Text = "DESCRIPCION";
             // 
             // ListaDelincuentes
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(1080, 596);
+            this.ClientSize = new System.Drawing.Size(810, 484);
             this.Controls.Add(this.label17);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label16);
@@ -369,6 +334,7 @@ namespace PROYECTO_HP_II
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "ListaDelincuentes";
             this.Text = "LOS MAS BUSCADOS";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -398,7 +364,6 @@ namespace PROYECTO_HP_II
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label17;
     }
 }

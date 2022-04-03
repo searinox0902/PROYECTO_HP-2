@@ -29,7 +29,6 @@ namespace PROYECTO_HP_II
         /// </summary>
         private void InitializeComponent()
         {
-            this.button2 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.labelDelito = new System.Windows.Forms.Label();
@@ -55,25 +54,6 @@ namespace PROYECTO_HP_II
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Transparent;
-            this.button2.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button2.FlatAppearance.BorderSize = 2;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Aqua;
-            this.button2.Location = new System.Drawing.Point(646, 25);
-            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(81, 26);
-            this.button2.TabIndex = 61;
-            this.button2.Text = "ATRAS";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.Yellow;
@@ -85,7 +65,7 @@ namespace PROYECTO_HP_II
             this.listBox1.Items.AddRange(new object[] {
             "ASDS"});
             this.listBox1.Location = new System.Drawing.Point(141, 145);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(8, 8, 8, 8);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(8);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(210, 221);
             this.listBox1.TabIndex = 60;
@@ -158,7 +138,7 @@ namespace PROYECTO_HP_II
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Yellow;
             this.button1.Location = new System.Drawing.Point(608, 396);
-            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(157, 26);
             this.button1.TabIndex = 48;
@@ -241,7 +221,7 @@ namespace PROYECTO_HP_II
             // 
             this.pictureBox1.Image = global::PROYECTO_HP_II.Properties.Resources.Rectángulo_30;
             this.pictureBox1.Location = new System.Drawing.Point(609, 106);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(156, 176);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -303,7 +283,7 @@ namespace PROYECTO_HP_II
             this.domainUpDown1.BackColor = System.Drawing.Color.Yellow;
             this.domainUpDown1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.domainUpDown1.Location = new System.Drawing.Point(608, 319);
-            this.domainUpDown1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.domainUpDown1.Margin = new System.Windows.Forms.Padding(2);
             this.domainUpDown1.Name = "domainUpDown1";
             this.domainUpDown1.ReadOnly = true;
             this.domainUpDown1.Size = new System.Drawing.Size(158, 23);
@@ -360,7 +340,6 @@ namespace PROYECTO_HP_II
             this.Controls.Add(this.textBoxID);
             this.Controls.Add(this.textBoxAlias);
             this.Controls.Add(this.textBoxNombre);
-            this.Controls.Add(this.button2);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.labelDelito);
@@ -376,7 +355,7 @@ namespace PROYECTO_HP_II
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "EditarDelincuente";
             this.Text = "EditarDelincuente";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -386,8 +365,6 @@ namespace PROYECTO_HP_II
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label labelDelito;

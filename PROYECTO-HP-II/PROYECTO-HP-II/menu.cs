@@ -55,7 +55,9 @@ namespace PROYECTO_HP_II
 
         private void button1_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new ListaDelincuentes());
+
             /*ListaDelincuentes Ldelincuentes = new ListaDelincuentes();
             Ldelincuentes.Show();
             this.Close();*/
@@ -65,6 +67,7 @@ namespace PROYECTO_HP_II
 
         private void button2_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new IngresarDelincuente());
             /*IngresarDelincuente ingresarDelincuente = new IngresarDelincuente();
             ingresarDelincuente.Show();
@@ -74,7 +77,9 @@ namespace PROYECTO_HP_II
 
         private void button3_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new EditarAgente());
+
             /*EditarDelincuente editarDelincuente = new EditarDelincuente();
             editarDelincuente.Show();
             this.Close();*/
@@ -99,6 +104,7 @@ namespace PROYECTO_HP_II
 
         private void button4_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new ListaCapturados());
 
             /*ListaCapturados listaCapturados = new ListaCapturados();
@@ -110,7 +116,9 @@ namespace PROYECTO_HP_II
 
         private void button7_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new EditarAgente());
+
             /*EditarAgente EditAgente = new EditarAgente();
             EditAgente.Show();
             this.Close();*/
@@ -119,7 +127,9 @@ namespace PROYECTO_HP_II
 
         private void button6_Click(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new RegistrarAgente());
+
             /*RegistrarAgente registrarAgenteWindow = new RegistrarAgente();
             registrarAgenteWindow.Show();*/
             hideMenu();
@@ -128,7 +138,9 @@ namespace PROYECTO_HP_II
 
         private void button5_Click_1(object sender, EventArgs e)
         {
+            //MessageBox.Show("Ventana abierta");
             AbrirFormInPanel(new ListarAgente());
+
             /*ListarAgente ListadoAgente = new ListarAgente();
             ListadoAgente.Show();
             this.Close();*/
@@ -173,24 +185,6 @@ namespace PROYECTO_HP_II
             inicioSesion.Show();
             this.Close();
         }
-
-        //Colocar form sobre form, otro metodo de hacerlo.
-        /*private Form activeForm = null;
-        private void openChildForm(Form childForm)
-        {
-            if (activeForm != null)
-            {
-                activeForm.Close();
-                activeForm = childForm;
-                childForm.TopLevel = false;
-                childForm.FormBorderStyle = FormBorderStyle.None;
-                childForm.Dock = DockStyle.Fill;
-                panelchildrensub.Controls.Add(childForm);
-                panelchildrensub.Tag = childForm;
-                childForm.BringToFront();
-                childForm.Show();
-            }
-        }     */ 
 
         private void panelchildrensub_Paint(object sender, PaintEventArgs e)
         {
