@@ -74,7 +74,7 @@ namespace PROYECTO_HP_II
 
         private void button3_Click(object sender, EventArgs e)
         {
-            AbrirFormInPanel(new EditarAgente());
+            AbrirFormInPanel(new EditarDelincuente());
             /*EditarDelincuente editarDelincuente = new EditarDelincuente();
             editarDelincuente.Show();
             this.Close();*/

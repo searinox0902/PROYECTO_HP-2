@@ -106,7 +106,7 @@ namespace PROYECTO_HP_II
             {
                 if (idSeleccionado == ListaAgentes[i].Id)
                 {
-                    textBoxNombre.Text = ListaAgentes[i].Name;
+                    textBoxNombre2.Text = ListaAgentes[i].Name;
                     textBoxEdad.Text = Convert.ToString(ListaAgentes[i].Age);
                     textBoxRango.Text = ListaAgentes[i].Rango;
                     textBoxPIN.Text = Convert.ToString(ListaAgentes[i].Pin);
@@ -123,7 +123,7 @@ namespace PROYECTO_HP_II
             {
                 SqlCommand comandoUpdateAgente = new SqlCommand("UPDATE AGENTE SET Nombre = @nombre, Edad = @edad, Rango = @rango WHERE Id = @id;", conn);
 
-                comandoUpdateAgente.Parameters.AddWithValue("nombre", textBoxNombre.Text);
+                comandoUpdateAgente.Parameters.AddWithValue("nombre", textBoxNombre2.Text);
                 comandoUpdateAgente.Parameters.AddWithValue("edad", Convert.ToString(textBoxEdad.Text));
                 comandoUpdateAgente.Parameters.AddWithValue("rango", textBoxRango.Text);
                 comandoUpdateAgente.Parameters.AddWithValue("id", listBox1.SelectedItem.ToString());
@@ -213,5 +213,24 @@ namespace PROYECTO_HP_II
 
         }
 
+        private void textBoxNombre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EditarAgente_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxNombre_TextChanged2(object sender, EventArgs e)
+        {
+            MessageBox.Show("Messaje");
+        }
     }
 }
