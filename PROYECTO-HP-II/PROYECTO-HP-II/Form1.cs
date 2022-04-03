@@ -40,11 +40,6 @@ namespace PROYECTO_HP_II
 
         private void button1_Click(object sender, EventArgs e)
         {   
-
-
-                
-           
-
             string consulta = "SELECT Id, PIN FROM Agente WHERE Id = @id AND Pin = @pin";
 
             try
