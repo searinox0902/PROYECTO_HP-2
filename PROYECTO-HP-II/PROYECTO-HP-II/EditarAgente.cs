@@ -230,7 +230,7 @@ namespace PROYECTO_HP_II
 
         private void textBoxNombre_TextChanged2(object sender, EventArgs e)
         {
-            MessageBox.Show("Messaje");
+            
         }
     }
 }
