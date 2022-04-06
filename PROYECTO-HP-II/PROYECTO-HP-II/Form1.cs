@@ -39,28 +39,32 @@ namespace PROYECTO_HP_II
         // INGRESAR
 
         private void button1_Click(object sender, EventArgs e)
-        {
-
-            conn.Open();
-
+        {   
             string consulta = "SELECT Id, PIN FROM Agente WHERE Id = @id AND Pin = @pin";
 
-            SqlCommand comando = new SqlCommand(consulta, conn);
-
-            comando.Parameters.AddWithValue("id", textBox1.Text);
-            comando.Parameters.AddWithValue("pin", textBox2.Text);
-
-            SqlDataReader lector = comando.ExecuteReader();
-
-            if(lector.Read()){
-                MenuWindow.Show();
-                this.Hide();
-            }
-            else
+            try
             {
-                MessageBox.Show("Usuario no encontrado.");
-            }
+                conn.Open();
+                SqlCommand comando = new SqlCommand(consulta, conn);
+                comando.Parameters.AddWithValue("id", textBox1.Text);
+                comando.Parameters.AddWithValue("pin", textBox2.Text);
+                SqlDataReader lector = comando.ExecuteReader();
 
+                if (lector.Read())
+                {
+                    MenuWindow.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Usuario no encontrado.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error, asegurese que los datos ingresados sean correctos \n" + ex.Message);
+            }
+            
             conn.Close();
         }
 
@@ -71,26 +75,24 @@ namespace PROYECTO_HP_II
         {
             conn.Open();
 
-           
                 string insertData = "INSERT INTO Agente(Id, PIN) VALUES(@id, @pin)";
-
-                SqlCommand comandoInsert = new SqlCommand(insertData, conn);
-
-                comandoInsert.Parameters.AddWithValue("id", textBox1.Text);
-                comandoInsert.Parameters.AddWithValue("pin", textBox2.Text);
 
                 try
                 {
+                    SqlCommand comandoInsert = new SqlCommand(insertData, conn);
+
+                    comandoInsert.Parameters.AddWithValue("id", textBox1.Text);
+                    comandoInsert.Parameters.AddWithValue("pin", textBox2.Text);
                     comandoInsert.ExecuteNonQuery();
+
                     MessageBox.Show("Agente Registrado");
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("Agente ya se encuentra registrado o Datos ingresados incorrectamente " + ex);
-                }
+                    MessageBox.Show("Agente ya se encuentra registrado o Datos ingresados Incorrectamente (SOLO NUMEROS EN PIN)");
+                } 
         
-          
-            conn.Close();
+                conn.Close();
 
         }
 

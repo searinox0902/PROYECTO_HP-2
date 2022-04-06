@@ -53,7 +53,13 @@ namespace PROYECTO_HP_II
 
             conn.Close();
         }
-        
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.Location = new Point(0, 0); //sobra si tienes la posición en el diseño
+            this.Size = new Size(this.Width, Screen.PrimaryScreen.WorkingArea.Size.Height);
+        }
+
         // FUNCION ACTUALIZA LABELS 
         private void ActualizarLabels()
         {

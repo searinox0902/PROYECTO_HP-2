@@ -23,6 +23,7 @@ namespace PROYECTO_HP_II
         {
             InitializeComponent();
 
+
             try
             {
 
@@ -222,6 +223,26 @@ namespace PROYECTO_HP_II
         }
 
         private void textBoxAlias_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxID_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxUbicacion_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBoxEdad_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void texboxDesc_TextChanged(object sender, EventArgs e)
         {
 
         }
